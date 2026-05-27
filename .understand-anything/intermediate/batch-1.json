@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "Understand-Anything eklentisi yapılandırma dosyası; autoUpdate etkin ve çıktı dili Türkçe olarak ayarlanmış.",
+      "tags": [
+        "configuration",
+        "understand-anything",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "PROCUX geliştirici dokümantasyon deposunun ana belgesi; mimari rehberler, entegrasyon kılavuzları ve AI modülleri hakkında içerik listesi sunar.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "architecture",
+        "overview"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "config:.understand-anything/config.json",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

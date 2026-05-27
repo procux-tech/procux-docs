@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "procux-docs",
+    "languages": [
+      "markdown",
+      "json"
+    ],
+    "frameworks": [],
+    "description": "PROCUX geliştirici dokümantasyon deposu; mimari rehberler, entegrasyon kılavuzları ve AI modülleri hakkında belgeler.",
+    "analyzedAt": "2026-05-27T00:46:14.102Z",
+    "gitCommitHash": "60265298980d4b7f2fd7cb48c0e4f70e3709dae6"
+  },
+  "nodes": [
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "Understand-Anything eklentisi yapılandırma dosyası.",
+      "tags": [
+        "configuration",
+        "understand-anything",
+        "build-system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "PROCUX geliştirici dokümantasyon deposunun ana belgesi; mimari, entegrasyon kılavuzları ve AI modülleri içerik listesini sunar.",
+      "tags": [
+        "documentation",
+        "entry-point",
+        "architecture",
+        "overview"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "config:.understand-anything/config.json",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:documentation",
+      "name": "Dokümantasyon",
+      "description": "Proje genel belgeleri ve yapılandırmaları.",
+      "nodeIds": [
+        "document:README.md",
+        "config:.understand-anything/config.json"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Geliştirici Dokümantasyonu",
+      "description": "PROCUX geliştirici belgeleri; mimari kararlar, entegrasyon rehberleri ve FastAPI/LangGraph/Next.js teknoloji yığını hakkında bilgi sunar.",
+      "nodeIds": [
+        "document:README.md"
+      ]
+    }
+  ]
+}

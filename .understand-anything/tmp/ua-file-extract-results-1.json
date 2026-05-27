@@ -1,0 +1,89 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "sections": [
+        {
+          "heading": "autoUpdate",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "outputLanguage",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 57,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "📚 PROCUX Developer Documentation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "📖 Contents",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Architecture",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "Integration Guides",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "AI Modules *(Research)*",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "⚙️ Tech Stack",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "📬 Contact",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "📄 License",
+          "level": 2,
+          "line": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    }
+  ]
+}
